@@ -1,0 +1,119 @@
+name: Quartz turret
+type: PowerTurret
+description: none
+size: 2
+reload: 140
+health: 320
+accurateDelay: false
+inaccuracy: 1
+shoot: {
+  shots: 1
+  shotDelay: 10
+}
+range: 150
+shootSound: bang
+chargeSound: short-laser-charge
+researchCostMultiplier: 0.5
+shootType: {
+  type: BasicBulletType
+  colors: [b98279, e6aca3, ffffff]
+  buildingDamageMultiplier: 0.5
+  chargeEffect: lightningCharge
+		type: BasicBulletType
+		sprite: large-orb
+		damage: 45
+		speed: 2.5
+		lifetime: 55
+		width: 10
+		height: 10
+		lightning: 9
+		lightningDamage: 5
+		lightningLength: 10
+		lightningColor: ffffff
+		trailColor: 8abbed
+		trailLength: 10           
+		trailWidth: 2   
+		backColor: 8abbed          
+		frontColor: ffffff
+}		
+category: turret
+squareSprite: false
+research: e2-perker
+requirements: [
+ i2-dendrite/90
+ i4-quartz-sand/30
+ i1-manganese/70
+ i3-chromium/50
+]
+targetAir: false
+consumes: {
+  power: 3
+}
+drawer: {
+type: DrawTurret
+parts: [
+     {
+         type: RegionPart
+         suffix: -part1
+         mirror: false
+         outline: true
+         progress: {
+         type: warmup
+         op: blend
+         other: heat
+         amount: 0.15
+          }
+         outlineLayerOffset: 0.001
+         moveY: -4
+		 moveX: 4
+             layerOffset: -0.02
+         }
+		 {
+         type: RegionPart
+         suffix: -part2
+         mirror: false
+         outline: true
+         progress: {
+         type: warmup
+         op: blend
+         other: heat
+         amount: 0.15
+          }
+         outlineLayerOffset: 0.001
+         moveY: -4
+		 moveX: -4
+             layerOffset: -0.02
+         }
+		 {
+         type: RegionPart
+         suffix: -part3
+		 mirror: false
+		 moveRot: -10
+		 progress: warmup
+		 moves: [
+        {
+		 type: PartMove
+		 progress: recoil
+		 rot: -20
+         y: -0.5
+        }
+        ]
+        }
+		{
+         type: RegionPart
+         suffix: -part4
+		 mirror: false
+		 moveRot: 10
+		 progress: warmup
+		 moves: [
+        {
+		 type: PartMove
+		 progress: recoil
+		 rot: 20
+         y: -0.5
+		 layerOffset: -0.02
+        }
+        ]
+        }
+	]
+}

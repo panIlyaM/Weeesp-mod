@@ -1,0 +1,57 @@
+name: Mercer
+"type": ItemTurret,
+"size": 1,
+"health": 100,
+range: 80,
+rotateSpeed: 5,
+reload: 30
+burstSpacing: 1
+shots: 1
+xRand: 1
+recoilAmount: 3
+shootSound: shootAltLong
+ammoTypes: {
+  i1-manganese: {
+    type: BasicBulletType,
+    speed: 5
+    lifetime: 17
+    damage: 15
+    width: 7
+    height: 9
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    ammoMultiplier: 3
+    collidesTiles: true
+    hitEffect: pointHit
+  }
+}
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+              type: ParticleEffect
+              particles: 5
+              lifetime: 30
+              length: 20
+              sizeFrom: 1
+              sizeTo: 0
+              strokeFrom: 1
+              strokeTo: 1
+              interp: pow3Out
+              spin: 1
+              sizeInterp: pow2In
+			  colorFrom: #b0b0b0
+			  colorTo: #505050
+            }
+        ]
+    }
+category: turret
+requirements: [
+  i1-manganese/25
+]
+research: {
+    parent: "c1-core-salvador",
+researchCost: [
+    i1-manganese/50
+  ]
+ }

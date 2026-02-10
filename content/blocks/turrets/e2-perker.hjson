@@ -1,0 +1,60 @@
+name: Perker
+type: ItemTurret
+size: 1
+health: 150
+range: 100
+layerOffset: 0.5
+rotateSpeed: 5,
+reload: 75
+burstSpacing: 1
+shots: 1
+xRand: 1
+recoilAmount: 3
+shootSound: shootAlt
+shoot: {
+      shots: 3
+      shotDelay: 8
+    }
+ammoTypes: {
+  i2-dendrite: {
+    type: BasicBulletType
+    speed: 5
+    lifetime: 20
+    damage: 15
+    width: 8
+    height: 10
+    shootEffect: none
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    collidesTiles: true
+    hitEffect: instBomb
+  }
+  i3-chromium: {
+    type: BasicBulletType
+    speed: 6
+    lifetime: 16
+    damage: 20
+    width: 6
+    height: 11
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    collidesTiles: true
+    hitEffect: hitBulletColor
+  }
+}
+    shootEffect: none
+category: turret
+requirements: [
+  i1-manganese/55
+  i2-dendrite/60
+  i3-chromium/30
+]
+research: {
+    parent: e1-mercer
+researchCost: [
+   i1-manganese/550
+  i2-dendrite/600
+  i3-chromium/300
+  ]
+ }
