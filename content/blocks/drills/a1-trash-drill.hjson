@@ -1,0 +1,21 @@
+ "name": "Trash drill",
+  "description": "Drill with ",
+  "type": "Drill",
+  hasLiquids: false
+  "size": 2,
+  "itemCapacity": 10,
+  "tier": 2,
+  "drillTime": 600,
+  "drawMineItem": true,
+  rotateSpeed: 1
+  liquidBoostIntensity: 1
+  requirements: [
+    i1-manganese/16
+  ]
+  "category": "production",
+research: {
+    parent: "c1-core-salvador",
+},
+researchCost: [
+    i1-manganese/100
+  ]

@@ -1,0 +1,22 @@
+type: WallCrafter
+name: Quartz crusher
+description: Crushes quartz walls.
+size: 2
+category: production
+research: a2-dendrite-drill 
+requirements: [
+  i1-manganese/40
+  i2-dendrite/30
+]
+drillTime: 350
+output: i4-quartz-sand
+attribute: quartz-sand
+ambientSound: drill
+ambientSoundVolume: 0.08
+alwaysUnlocked: false
+squareSprite: false
+parent: a2-dendrite-drill
+researchCost: [
+    i1-manganese/400
+	i2-dendrite/300
+  ]

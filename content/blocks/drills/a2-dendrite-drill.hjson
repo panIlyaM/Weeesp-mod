@@ -1,0 +1,23 @@
+name: dendrite drill
+description: Drill 
+type: Drill
+hasLiquids: false
+size: 2
+itemCapacity: 10
+tier: 3
+drillTime: 550
+drawMineItem: true
+rotateSpeed: 1.5
+liquidBoostIntensity: 1
+requirements: [
+  i1-manganese/32
+  i2-dendrite/35
+  ]
+category: production
+research: {
+    parent: a1-trash-drill
+}
+researchCost: [
+    i1-manganese/320
+	i2-dendrite/350
+  ]
