@@ -1,0 +1,14 @@
+type: Wall
+size: 1
+name: Vertum wall
+description: A wall. Sometimes releases electrical arcs that damage nearby enemies.
+lightningChance: 0.05
+lightningDamage: 10
+lightningColor: 7979bd
+health: 450
+requirements: [
+  i5-vertum/6
+] 
+category: defense
+research: g2-large-manganese-wall
+researchCostMultiplier: 0.5

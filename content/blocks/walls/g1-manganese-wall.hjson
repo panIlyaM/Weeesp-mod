@@ -1,0 +1,12 @@
+type: Wall
+name: Manganese Wall
+description: Protects structures from incoming damage.
+size: 1
+health: 300
+squareSprite: false
+requirements: [
+  i1-manganese/6
+]
+research: e1-mercer
+category: defense
+researchCostMultiplier: 0.05

@@ -1,0 +1,12 @@
+type: Wall
+name: Large Manganese Wall
+description:  A large wall made from Manganese. Protects allied structures from damage.
+size: 2
+health: 1200
+squareSprite: false
+requirements: [
+  i1-manganese/24
+]
+research: g1-manganese-wall
+category: defense
+researchCostMultiplier: 0.05

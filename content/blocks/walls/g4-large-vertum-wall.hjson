@@ -1,0 +1,14 @@
+type: Wall
+size: 2
+name: Large vertum wall
+description: A large wall. Sometimes releases electrical arcs that damage nearby enemies.
+lightningChance: 0.05
+lightningDamage: 10
+lightningColor: 7979bd
+health: 1800
+requirements: [
+  i5-vertum/24
+] 
+category: defense
+research: g3-vertum-wall
+researchCostMultiplier: 0.5
