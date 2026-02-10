@@ -1,0 +1,13 @@
+type: Junction
+name: Manganese junction
+health: 30
+speed: 10
+capacity: 6
+requirements: [
+  i1-manganese/4
+] 
+category: distribution
+research: d1-manganese-conveyor
+researchCost: [
+    i1-manganese/50
+  ]

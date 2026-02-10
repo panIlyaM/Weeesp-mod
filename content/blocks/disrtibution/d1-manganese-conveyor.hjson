@@ -1,0 +1,11 @@
+type: Conveyor
+name: Manganese conveyor
+description: Initial conveyor.
+bridgeReplacement: d4-manganese-bridge
+junctionReplacement: d2-manganese-junction
+requirements: [
+  i1-manganese/1
+]
+category: distribution
+speed: 0.025
+research: c1-core-salvador

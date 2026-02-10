@@ -1,0 +1,12 @@
+name: Manganese router
+type: Router 
+health: 40
+itemCapacity: 3
+requirements: [
+  i1-manganese/4
+] 
+category: distribution
+research: d2-manganese-junction
+researchCost: [
+    i1-manganese/50
+  ]
