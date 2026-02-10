@@ -1,0 +1,36 @@
+type: UnitFactory
+name: Tank factory
+size: 3
+health: 200
+category: units
+configurable: false
+consumes: {
+    power: 1.6
+}
+plans: [
+    {
+    unit: lagan
+	time: 1200
+	requirements: [
+	    i5-vertum/15
+		i2-dendrite/20
+	]
+    }
+]
+
+requirements: [
+   i1-manganese/150
+   i2-dendrite/120
+   i5-vertum/75
+]
+
+research: {
+    parent: "c1-core-salvador"
+    requirements: [
+        i1-manganese/1500
+	    i2-dendrite/1200
+		i5-vertum/750
+		
+		
+    ]
+}
