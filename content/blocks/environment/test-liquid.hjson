@@ -1,0 +1,10 @@
+type: Floor
+name: Test liquid
+speedMultiplier: 0.7
+variants: 3
+isLiquid: true
+liquidDrop: liquid-test
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true
+liquidMultiplier: 1.33333332

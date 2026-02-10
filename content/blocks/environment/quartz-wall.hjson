@@ -1,0 +1,5 @@
+type: StaticWall
+name: Quartz wall
+attributes: {
+  quartz-sand: 1
+}

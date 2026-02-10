@@ -1,0 +1,4 @@
+type: Prop
+name: Volcanic sand boulder
+variants: 2
+breakSound: rock-crush

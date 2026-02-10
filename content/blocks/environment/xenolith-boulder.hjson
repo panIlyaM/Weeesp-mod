@@ -1,0 +1,4 @@
+type: Prop
+name: Xenolith boulder
+variants: 2
+breakSound: crystal-crush
