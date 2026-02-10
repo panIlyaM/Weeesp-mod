@@ -1,0 +1,4 @@
+type: OreBlock
+name: Chromium
+itemDrop: i3-chromium
+variants: 5
