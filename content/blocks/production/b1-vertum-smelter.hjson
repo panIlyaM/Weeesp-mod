@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Vertum smelter
+description: Fuses dendrite and quartz sand into vertum.
+size: 2
+scaledHealth: 140
+squareSprite: true
+craftEffect: smeltsmoke
+outputItems: [
+  i5-vertum/1
+]
+consumes: {
+ power: 1.75
+  items: [
+    i2-dendrite/2
+    i4-quartz-sand/3
+  ]
+}
+craftTime: 90
+category: crafting
+research: {
+  parent: a1-trash-drill
+}
+researchCost: [
+    i3-chromium/4000
+	i1-manganese/3000
+  ]
+requirements: [
+  i3-chromium/40
+  i1-manganese/30
+]
+ambientSound: grinding
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5
