@@ -1,0 +1,17 @@
+type: Battery
+name: Energy capacitor
+description: none.
+health: 75 
+size: 1
+squareSprite: false
+consumes: {
+  powerBuffered: 1500
+}
+requirements: [
+  i1-manganese/30
+  i2-dendrite/35
+  i4-quartz-sand/20
+]
+category: power
+research: p1-transmission-node
+researchCostMultiplier: 0.5

@@ -1,0 +1,18 @@
+type: PowerNode
+name: Transmission node
+description: none
+size: 1
+health: 25
+squareSprite: false
+laserRange: 4
+laserColor1: b3b3ff
+laserColor2: 5f5f9c
+maxNodes: 5
+requirements: [
+  i1-manganese/20
+  i2-dendrite/30
+  i3-chromium/10
+]
+category: power
+research: p3-decay-chamber
+researchCostMultiplier: 0.5

@@ -1,0 +1,43 @@
+type: ConsumeGenerator
+name: Decay chamber
+description: none
+squareSprite: false
+size: 2
+health: 190
+requirements: [
+ i2-dendrite/70
+ i3-chromium/50
+]
+category: power
+powerProduction: 0.75
+itemDuration: 120
+ambientSound: smelter
+ambientSoundVolume: 0.03
+consumes: {
+  items: [
+    i2-dendrite/1
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawArcSmelt
+      particleLife: 25
+      particleLen: 2
+    }
+    {    
+      type: DrawDefault
+    }
+  ]
+ }
+ parent: a1-trash-drill
+ research: a1-trash-drill 
+researchCost: [
+    i2-dendrite/700
+ i3-chromium/500
+  ]
