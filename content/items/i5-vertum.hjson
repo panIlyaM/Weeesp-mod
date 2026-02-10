@@ -1,0 +1,10 @@
+name: Vertum
+description: "A medium conductivity material. Ideal for starter boards."
+cost: 0.9
+alwaysUnlocked: false
+color: 7979bd
+research: i4-quartz-sand
+hiddenOnPlanets: [serpulo, erekir]
+charge: 1.2
+flammability: 0
+explosiveness: 0

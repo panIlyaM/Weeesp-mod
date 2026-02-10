@@ -1,0 +1,11 @@
+name: dendrite
+description: "Conductive metal. Used on Weeesp as a cheap material for building mechs and initial energy generators."
+hardness: 2
+cost: 0.8
+alwaysUnlocked: true
+color: d3ad40
+research: i1-manganese
+hiddenOnPlanets: [serpulo, erekir]
+charge: 0.75
+flammability: 0
+explosiveness: 0

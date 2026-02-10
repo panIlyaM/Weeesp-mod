@@ -1,0 +1,8 @@
+name: Manganese
+description: "basic bulding material on Weeesp"
+hardness: 1
+cost: 0.5
+alwaysUnlocked: true
+color: 9b2d30
+research: c1-core-salvador
+hiddenOnPlanets: [serpulo, erekir]

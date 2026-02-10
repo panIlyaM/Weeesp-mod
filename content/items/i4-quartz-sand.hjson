@@ -1,0 +1,8 @@
+name: Quartz sand
+description: "Used in the construction of batteries and various alloys."
+hardness: 0.8
+cost: 0.6
+alwaysUnlocked: false
+color: e9dfe0
+research: i2-dendrite
+hiddenOnPlanets: [serpulo, erekir]

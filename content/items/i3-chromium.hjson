@@ -1,0 +1,8 @@
+name: Chromium
+description: "More durable material."
+hardness: 3
+cost: 0.9
+alwaysUnlocked: false
+color: a2a3a4
+research: i2-dendrite
+hiddenOnPlanets: [serpulo, erekir]
