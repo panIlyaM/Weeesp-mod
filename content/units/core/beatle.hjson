@@ -1,0 +1,115 @@
+type: flying
+name: Beatle
+lowAltitude: true
+speed: 2.5
+accel: 0.1
+drag: 0.06
+flying: true
+health: 150
+hitSize: 10
+armor: 1
+itemCapacity: 20
+engineOffset: 7.5
+faceTarget: true
+controller: BuilderAI
+mineTier: 1
+mineSpeed: 5
+buildSpeed: 1
+buildBeamOffset: 5
+isEnemy: true
+mineableOre: [
+        "manganese",
+    ]
+weapons: [
+{
+name: beatle-gun
+x: 0
+y: 3
+mirror: false
+shoot: {
+type: ShootPattern
+shots: 2
+}
+top: false
+rotate: false
+reload: 45
+recoil: 3
+    shootSound: bang
+    bullet: {
+      homingPower: 0.03
+	  weaveMag: 4
+      weaveScale: 4
+      homingRange: 60
+      buildingDamageMultiplier: 0.03
+      speed: 4
+      lifetime: 40
+      damage: 13
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
+      width: 9
+      height: 20
+        frontColor: ffa664
+        backColor: ffffff
+      despawnHit: true
+      despawnEffect: none
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          line: true
+          lifetime: 15
+          length: 15
+          lenFrom: 3
+          lenTo: 0
+          strokeFrom: 1
+          strokeTo: 0
+          colorFrom: ffa664
+          colorTo: ffffff
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 10
+          lifetime: 15
+          strokeFrom: 3
+          strokeTo: 0
+          colorFrom: ffa664
+          colorTo: ffffff
+        }
+      ]
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "ffa664",
+                "colorTo": "ffffff",
+                "sizeFrom": 1,
+                "sizeTo": 15,
+                "lifetime": 10
+            }
+            {
+              type: ParticleEffect
+              particles: 1
+              lifetime: 30
+              length: 12
+              sizeFrom: 3
+              sizeTo: 0
+              colorFrom: ffa664
+              colorTo: ffffff
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+            }
+        ]
+    }
+    trailChance: 0.3
+    trailLength: 4
+    trailWidth: 2.5
+    trailColor: ffa664
+    }
+}
+ ] 
