@@ -1,0 +1,18 @@
+type: ParticleWeather
+localizedName: weeesp fog
+color: c0c0c0
+noiseColor: d8d9da
+drawNoise: true
+particleRegion: particle
+useWindVector: true
+sizeMax: 280
+sizeMin: 70
+minAlpha: 0.1
+maxAlpha: 0.3
+density: 1250
+baseSpeed: 1
+opacityMultiplier: 1
+force: 0.1
+sound: none
+soundVol: 0.8
+duration: 4200

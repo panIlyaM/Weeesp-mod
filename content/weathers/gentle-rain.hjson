@@ -1,0 +1,18 @@
+type: ParticleWeather
+localizedName: Gentle Rain
+color: 87CEEB # светло-голубой цвет капель дождя
+noiseColor: 87CEEB
+drawNoise: true
+particleRegion: particle
+useWindVector: true
+sizeMax: 10  # максимальный размер капли
+sizeMin: 2   # минимальный размер капли
+minAlpha: 0.1
+maxAlpha: 0.6
+density: 2000  # плотность частиц (количество капель)
+baseSpeed: 4  # скорость падения капель
+opacityMultiplier: 0.4
+force: 0.05  # воздействие ветра на частицы
+sound: rain  # звук дождя (должен быть в игре)
+soundVol: 0.7
+duration: 3600  # длительность дождя (в тиках, 3600 = 1 минута)
