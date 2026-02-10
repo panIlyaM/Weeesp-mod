@@ -1,0 +1,10 @@
+localizedName: The Nook
+description: 
+''' 
+  A nook in the thicket, explore the area and get your first resources.
+''' 
+captureWave: 10
+planet: weeesp
+sector: 8
+difficulty: 2
+alwaysUnlocked: true
