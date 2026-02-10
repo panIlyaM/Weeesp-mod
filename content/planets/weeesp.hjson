@@ -1,0 +1,75 @@
+  localizedName: Weeesp
+  generator: "PlanetGenerator",
+    parent: "nexeya",
+    iconColor: 10d7e6,
+    orbitRadius: 40,
+    hasAtmosphere: true,
+    updateLighting: true,
+    atmosphereRadIn: 0.01,
+    atmosphereRadOut: 0.3,
+    atmosphereColor: 4caed9,
+    drawOrbit: true,
+    accessible: true,
+    alwaysUnlocked: true,
+    defaultCore: "c1-core-salvador",
+    sectorSeed: 69,
+    startSector: 8,
+    sectorSize: 1,
+    clearSectorOnLose: true,
+    allowSectorInvasion: false,
+	allowLaunchToNumbered: true,
+    radius: 1,
+	parent: nexeya
+	solarSystem: nexeya
+    hiddenItems: [
+        "copper",
+        "lead",
+        "scrap",
+        "graphite",
+        "coal",
+        "titanium",
+        "thorium",
+        "silicon",
+        "plastanium",
+        "phase-fabric",
+        "surge-alloy",
+        "spore-pod",
+        "sand",
+        "blast-compound",
+        "pyratite",
+        "metaglass",
+        "beryllium",
+        "oxide",
+        "tungsten",
+        "carbide",
+        "fissile-matter",
+        "dormant-cyst"
+    ],
+cloudMesh: {
+  type: HexSkyMesh
+  planet: Weeesp
+  seed: 2
+  speed: 1
+  radius: 0.1
+  divisions: 5
+  color: 8fb2ef
+  octaves: 2
+  persistence: 1
+  scl: 15
+  thresh: 0.5
+ }
+ mesh: [
+     {
+      "type": "NoiseMesh",
+      "planet": "Weeesp",
+      "seed": 65,
+      "color1": "3e72ce",
+      "color2": "2d2d2d",
+      "divisions": 4,
+      "radius": 0.8,
+      "octaves": 8,
+      "persistence": 1,
+      "scale": 2,
+      "mag": 1
+    }
+]
